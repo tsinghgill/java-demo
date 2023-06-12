@@ -10,28 +10,18 @@
               "type": "struct",
               "fields": [
                 { "field": "id", "optional": false, "type": "int32" },
-                { "field": "category", "optional": false, "type": "string" },
                 {
-                  "field": "product_type",
-                  "optional": false,
-                  "type": "string"
-                },
-                {
-                  "field": "product_name",
+                  "field": "pill_name",
                   "optional": false,
                   "type": "string"
                 },
                 { "field": "stock", "optional": false, "type": "boolean" },
-                { "field": "product_id", "optional": false, "type": "int32" },
+                { "field": "quantity_dispensed", "optional": false, "type": "int32" },
+                { "field": "order_id", "optional": false, "type": "int32" },
                 {
                   "field": "shipping_address",
                   "optional": false,
                   "type": "string"
-                },
-                {
-                  "field": "customer_email",
-                  "optional": false,
-                  "type": "varchar"
                 }
               ],
               "optional": true,
@@ -42,28 +32,18 @@
               "type": "struct",
               "fields": [
                 { "field": "id", "optional": false, "type": "int32" },
-                { "field": "category", "optional": false, "type": "string" },
                 {
-                  "field": "product_type",
-                  "optional": false,
-                  "type": "string"
-                },
-                {
-                  "field": "product_name",
+                  "field": "pill_name",
                   "optional": false,
                   "type": "string"
                 },
                 { "field": "stock", "optional": false, "type": "boolean" },
-                { "field": "product_id", "optional": false, "type": "int32" },
+                { "field": "quantity_dispensed", "optional": false, "type": "int32" },
+                { "field": "order_id", "optional": false, "type": "int32" },
                 {
                   "field": "shipping_address",
                   "optional": false,
                   "type": "string"
-                },
-                {
-                  "field": "customer_email",
-                  "optional": false,
-                  "type": "varchar"
                 }
               ],
               "optional": true,
@@ -123,13 +103,11 @@
           "before": null,
           "after": {
             "id": 9582724,
-            "category": "camping",
-            "product_type": "sleeping-bag",
-            "product_name": "Forte 35 Sleeping Bag - Womens",
+            "pill_name": "Amoxicillin",
             "stock": true,
-            "product_id": 361632,
-            "shipping_address": "9718 East Virginia Avenue Silver Spring, MD 20901",
-            "customer_email": "usera@example.com"
+            "quantity_dispensed": 100,
+            "order_id": 12,
+            "shipping_address": "9718 East Virginia Avenue Silver Spring, MD 20901"
           },
           "source": {
             "version": "1.2.5.Final",
@@ -160,28 +138,18 @@
               "type": "struct",
               "fields": [
                 { "field": "id", "optional": false, "type": "int32" },
-                { "field": "category", "optional": false, "type": "string" },
                 {
-                  "field": "product_type",
-                  "optional": false,
-                  "type": "string"
-                },
-                {
-                  "field": "product_name",
+                  "field": "pill_name",
                   "optional": false,
                   "type": "string"
                 },
                 { "field": "stock", "optional": false, "type": "boolean" },
-                { "field": "product_id", "optional": false, "type": "int32" },
+                { "field": "quantity_dispensed", "optional": false, "type": "int32" },
+                { "field": "order_id", "optional": false, "type": "int32" },
                 {
                   "field": "shipping_address",
                   "optional": false,
                   "type": "string"
-                },
-                {
-                  "field": "customer_email",
-                  "optional": false,
-                  "type": "varchar"
                 }
               ],
               "optional": true,
@@ -192,28 +160,18 @@
               "type": "struct",
               "fields": [
                 { "field": "id", "optional": false, "type": "int32" },
-                { "field": "category", "optional": false, "type": "string" },
                 {
-                  "field": "product_type",
-                  "optional": false,
-                  "type": "string"
-                },
-                {
-                  "field": "product_name",
+                  "field": "pill_name",
                   "optional": false,
                   "type": "string"
                 },
                 { "field": "stock", "optional": false, "type": "boolean" },
-                { "field": "product_id", "optional": false, "type": "int32" },
+                { "field": "quantity_dispensed", "optional": false, "type": "int32" },
+                { "field": "order_id", "optional": false, "type": "int32" },
                 {
                   "field": "shipping_address",
                   "optional": false,
                   "type": "string"
-                },
-                {
-                  "field": "customer_email",
-                  "optional": false,
-                  "type": "varchar"
                 }
               ],
               "optional": true,
@@ -272,14 +230,12 @@
         "payload": {
           "before": null,
           "after": {
-            "id": 9582725,
-            "category": "camping",
-            "product_type": "sleeping-bag",
-            "product_name": "Cosmic 20 Sleeping Bag - Mens",
+            "id": 9582724,
+            "pill_name": "Prozac",
             "stock": true,
-            "product_id": 235367,
-            "shipping_address": "881 South Newbridge Lane Upland, CA 91784",
-            "customer_email": "userb@example.com"
+            "quantity_dispensed": 200,
+            "order_id": 19,
+            "shipping_address": "300 Front Street West, Toronto Ontario, Canada M5K 4E9"
           },
           "source": {
             "version": "1.2.5.Final",
@@ -310,28 +266,18 @@
               "type": "struct",
               "fields": [
                 { "field": "id", "optional": false, "type": "int32" },
-                { "field": "category", "optional": false, "type": "string" },
                 {
-                  "field": "product_type",
-                  "optional": false,
-                  "type": "string"
-                },
-                {
-                  "field": "product_name",
+                  "field": "pill_name",
                   "optional": false,
                   "type": "string"
                 },
                 { "field": "stock", "optional": false, "type": "boolean" },
-                { "field": "product_id", "optional": false, "type": "int32" },
+                { "field": "quantity_dispensed", "optional": false, "type": "int32" },
+                { "field": "order_id", "optional": false, "type": "int32" },
                 {
                   "field": "shipping_address",
                   "optional": false,
                   "type": "string"
-                },
-                {
-                  "field": "customer_email",
-                  "optional": false,
-                  "type": "varchar"
                 }
               ],
               "optional": true,
@@ -342,28 +288,18 @@
               "type": "struct",
               "fields": [
                 { "field": "id", "optional": false, "type": "int32" },
-                { "field": "category", "optional": false, "type": "string" },
                 {
-                  "field": "product_type",
-                  "optional": false,
-                  "type": "string"
-                },
-                {
-                  "field": "product_name",
+                  "field": "pill_name",
                   "optional": false,
                   "type": "string"
                 },
                 { "field": "stock", "optional": false, "type": "boolean" },
-                { "field": "product_id", "optional": false, "type": "int32" },
+                { "field": "quantity_dispensed", "optional": false, "type": "int32" },
+                { "field": "order_id", "optional": false, "type": "int32" },
                 {
                   "field": "shipping_address",
                   "optional": false,
                   "type": "string"
-                },
-                {
-                  "field": "customer_email",
-                  "optional": false,
-                  "type": "varchar"
                 }
               ],
               "optional": true,
@@ -422,14 +358,12 @@
         "payload": {
           "before": null,
           "after": {
-            "id": 9582726,
-            "category": "camping",
-            "product_type": "sleeping-bag",
-            "product_name": "Zephyr 25 Recycled Sleeping Bag - Kid",
+            "id": 9582724,
+            "pill_name": "Penicillin",
             "stock": true,
-            "product_id": 203000,
-            "shipping_address": "43 Sunnyslope Street Port Richey, FL 34668",
-            "customer_email": "userc@example.com"
+            "quantity_dispensed": 50,
+            "order_id": 22,
+            "shipping_address": "1 Letterman Drive, San Francisco, CA, USA"
           },
           "source": {
             "version": "1.2.5.Final",
