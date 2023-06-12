@@ -19,7 +19,7 @@
                 { "field": "quantity_dispensed", "optional": false, "type": "int32" },
                 { "field": "order_id", "optional": false, "type": "int32" },
                 {
-                  "field": "shipping_address",
+                  "field": "source",
                   "optional": false,
                   "type": "string"
                 }
@@ -41,7 +41,7 @@
                 { "field": "quantity_dispensed", "optional": false, "type": "int32" },
                 { "field": "order_id", "optional": false, "type": "int32" },
                 {
-                  "field": "shipping_address",
+                  "field": "source",
                   "optional": false,
                   "type": "string"
                 }
@@ -107,7 +107,7 @@
             "stock": true,
             "quantity_dispensed": 100,
             "order_id": 12,
-            "shipping_address": "9718 East Virginia Avenue Silver Spring, MD 20901"
+            "source": "west-store-mongo"
           },
           "source": {
             "version": "1.2.5.Final",
@@ -147,7 +147,7 @@
                 { "field": "quantity_dispensed", "optional": false, "type": "int32" },
                 { "field": "order_id", "optional": false, "type": "int32" },
                 {
-                  "field": "shipping_address",
+                  "field": "source",
                   "optional": false,
                   "type": "string"
                 }
@@ -169,7 +169,7 @@
                 { "field": "quantity_dispensed", "optional": false, "type": "int32" },
                 { "field": "order_id", "optional": false, "type": "int32" },
                 {
-                  "field": "shipping_address",
+                  "field": "source",
                   "optional": false,
                   "type": "string"
                 }
@@ -235,7 +235,7 @@
             "stock": true,
             "quantity_dispensed": 200,
             "order_id": 19,
-            "shipping_address": "300 Front Street West, Toronto Ontario, Canada M5K 4E9"
+            "source": "atlas"
           },
           "source": {
             "version": "1.2.5.Final",
@@ -275,7 +275,7 @@
                 { "field": "quantity_dispensed", "optional": false, "type": "int32" },
                 { "field": "order_id", "optional": false, "type": "int32" },
                 {
-                  "field": "shipping_address",
+                  "field": "source",
                   "optional": false,
                   "type": "string"
                 }
@@ -297,7 +297,7 @@
                 { "field": "quantity_dispensed", "optional": false, "type": "int32" },
                 { "field": "order_id", "optional": false, "type": "int32" },
                 {
-                  "field": "shipping_address",
+                  "field": "source",
                   "optional": false,
                   "type": "string"
                 }
@@ -363,7 +363,7 @@
             "stock": true,
             "quantity_dispensed": 50,
             "order_id": 22,
-            "shipping_address": "1 Letterman Drive, San Francisco, CA, USA"
+            "source": "west-store-mongo"
           },
           "source": {
             "version": "1.2.5.Final",
